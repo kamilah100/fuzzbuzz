@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    /* color: white; */
+    background-image: url("image/Katalyst_Thumbnail_String-Calculator.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+  }
+  main{
+    display: flex;
+    justify-content: center;
+    padding: 20px !important;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    background-image: linear-gradient(rgba(49, 49, 49, 0.4), rgba(20, 20, 20,0.3)), url(images/giphy.gif);
+    background-size: cover;
+
+  }
+  section{
+    background-color: transparent;
+    border: 2px solid rgba(228, 228, 228, 0.5);
+    border-radius: 30px;
+
+  }
+  input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 40px;
+    outline: none;
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+
+  }
+  button{
+
+    background-color: rgb(3, 105, 173);
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-radius: 40px;
+
+  }
+  div{
+    background-color: transparent;
+    margin-top: 30px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 20px;
+    opacity: 0.9;
+  }
